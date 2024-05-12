@@ -25,11 +25,25 @@ Before diving into converting your video files, ensure you've followed these ste
    git clone https://github.com/your-username/avi-to-mp4-converter.git
    ```
 
-2. **Initialize the Environment:** : Double-click on `init.bat`
+2. **Download [this](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z) ffmpeg release.**
 
-3. **Place Your Videos in folder "TO_CONVERT"**. Please one video at a time !
+If not available, check any new release [here](https://www.gyan.dev/ffmpeg/builds/) or [there](https://ffmpeg.org/download.html#build-windows)
 
-4. **Convert Your Videos:** : Double-click on `convert.bat`and choose a conversion speed.
+3. **Extract the downloaded build**
+
+Place it in a folder called `ffmpeg` (same level as `.bat` file). The `\bin` need to be in the sublevel (`ffmpeg\bin`)
+
+4. **Initialize the Environment:**
+
+Double-click on `init.bat`
+
+5. **Place Your Videos in folder "TO_CONVERT"**
+
+Please one video at a time !
+
+6. **Convert Your Videos:**
+
+Double-click on `convert.bat`and choose a conversion speed.
 
 #### Conversion Speeds
 
